@@ -28,8 +28,8 @@ public class Hash {
 			ascii = str[i].getBytes();
 			String asciiString = Arrays.toString(ascii);
 			hashAdrr = getHashAddress(ascii);
-//			hashTable = hashLinear(hashTable,hashAdrr,.9);
-			hashTable = hashRandom(hashTable,hashAdrr,.5);
+			hashTable = hashLinear(hashTable,hashAdrr,.9);
+//			hashTable = hashRandom(hashTable,hashAdrr,.5);
 //			System.out.println(str[i]+" : "+hashAdrr+" : "+asciiString);
 			i++;
 		}
@@ -41,7 +41,7 @@ public class Hash {
 		for(int x=0; x<hashTable.length; x++)
 		{
 			//System.out.println(hashTable[x][0]+", \t"+hashTable[x][1]+", \t"+hashTable[x][2]);
-			if(hashTable[x][1] != 0)
+//			if(hashTable[x][2] > 30 && hashTable[x][1] != 0)
 				System.out.format("%4d, %4d, %2d\n", hashTable[x][0], hashTable[x][1], hashTable[x][2]);
 			if(hashTable[x][1] != 0)
 				taken++;
@@ -54,14 +54,13 @@ public class Hash {
 
 	private static int[][] hashRandom(int[][] hashTable, int hashAdrr, double d) 
 	{
-		Random getRnd = new Random(123);
+		Random getRnd = new Random(hashAdrr);
 		
 		double cap = 0;
 		for(int i=0; i<hashTable.length; i++)
 			if(hashTable[i][1] != 0)
 				cap++;
 		
-		HashSet<Integer> used = new HashSet<Integer>();
 		int probe = 0;
 		int newHash = hashAdrr;
 		if((cap/hashTable.length)<d)
@@ -70,13 +69,13 @@ public class Hash {
 			{
 				probe++;
 				newHash = getRnd.nextInt(hashTable.length);
-				System.out.println(newHash);
+//				System.out.println(newHash);
 			}
 			hashTable[newHash][1] = hashAdrr;
 			hashTable[newHash][2] = probe;
 		}
 		
-		System.out.println("====");
+//		System.out.println("====");
 		return hashTable;
 	}
 
