@@ -9,6 +9,10 @@ import java.util.Scanner;
 
 public class Hash {
 
+	private static int firstThirty[] = new int[3]; //min,max,avg
+	private static int lastThirty[] = new int[3]; //min,max,avg
+	private static int last=0;
+	
 	public static void main(String[] args) throws FileNotFoundException
 	{
 		File file = new File("input.txt");
@@ -29,7 +33,7 @@ public class Hash {
 			String asciiString = Arrays.toString(ascii);
 			hashAdrr = getHashAddress(ascii);
 			hashTable = hashLinear(hashTable,hashAdrr,.9);
-//			hashTable = hashRandom(hashTable,hashAdrr,.5);
+//			hashTable = hashRandom(hashTable,hashAdrr,.9);
 //			System.out.println(str[i]+" : "+hashAdrr+" : "+asciiString);
 			i++;
 		}
@@ -42,10 +46,17 @@ public class Hash {
 		{
 			//System.out.println(hashTable[x][0]+", \t"+hashTable[x][1]+", \t"+hashTable[x][2]);
 //			if(hashTable[x][2] > 30 && hashTable[x][1] != 0)
+			if(hashTable[x][1] == 0 && hashTable[x][2] == 0)
+				System.out.println("Empty at key "+hashTable[x][0]);
+			else
 				System.out.format("%4d, %4d, %2d\n", hashTable[x][0], hashTable[x][1], hashTable[x][2]);
+			
 			if(hashTable[x][1] != 0)
 				taken++;
 		}
+
+		System.out.println("First Thirty :: "+firstThirty[0]+", "+firstThirty[1]+", "+firstThirty[2]/30);
+		System.out.println("Last Thirty :: "+lastThirty[0]+", "+lastThirty[1]+", "+lastThirty[2]/30);
 		
 		System.out.println(taken+" :: "+Arrays.deepToString(hashTable));
 
@@ -75,6 +86,31 @@ public class Hash {
 			hashTable[newHash][2] = probe;
 		}
 		
+		if(cap<30)
+		{
+			//get min first thirty
+			if(hashTable[(hashAdrr+probe)][2] < firstThirty[0])
+				firstThirty[0] = hashTable[(hashAdrr+probe)][2];
+			//get max first thirty
+			if(hashTable[(hashAdrr+probe)][2] > firstThirty[1])
+				firstThirty[1] = hashTable[(hashAdrr+probe)][2];
+			//get avg first thirty
+			firstThirty[2] += hashTable[(hashAdrr+probe)][2];
+		}
+		
+		if(cap<(hashTable.length*d) && cap>(hashTable.length*d)-30)
+		{
+		//	System.out.println("Last" + last + " :: Probe"+probe+" "+hashTable.length); last++;
+			//get min first thirty
+			if(hashTable[(hashAdrr+probe)%128][2] < lastThirty[0])
+				lastThirty[0] = hashTable[(hashAdrr+probe)%128][2];
+			//get max first thirty
+			if(hashTable[(hashAdrr+probe)%128][2] > lastThirty[1])
+				lastThirty[1] = hashTable[(hashAdrr+probe)%128][2];
+			//get avg first thirty
+			lastThirty[2] += hashTable[(hashAdrr+probe)%128][2];
+	}
+		
 //		System.out.println("====");
 		return hashTable;
 	}
@@ -100,6 +136,31 @@ public class Hash {
 			hashTable[(hashAdrr+probe)%128][2] = probe;
 		}
 				
+		if(cap<30)
+		{
+			//get min first thirty
+			if(hashTable[(hashAdrr+probe)][2] < firstThirty[0])
+				firstThirty[0] = hashTable[(hashAdrr+probe)][2];
+			//get max first thirty
+			if(hashTable[(hashAdrr+probe)][2] > firstThirty[1])
+				firstThirty[1] = hashTable[(hashAdrr+probe)][2];
+			//get avg first thirty
+			firstThirty[2] += hashTable[(hashAdrr+probe)][2];
+		}
+		
+		if(cap<(hashTable.length*d) && cap>(hashTable.length*d)-30)
+		{
+//			System.out.println("Last" + last + " :: Probe"+probe+" "+hashTable.length); last++;
+			//get min first thirty
+			if(hashTable[(hashAdrr+probe)%128][2] < lastThirty[0])
+				lastThirty[0] = hashTable[(hashAdrr+probe)%128][2];
+			//get max first thirty
+			if(hashTable[(hashAdrr+probe)%128][2] > lastThirty[1])
+				lastThirty[1] = hashTable[(hashAdrr+probe)%128][2];
+			//get avg first thirty
+			lastThirty[2] += hashTable[(hashAdrr+probe)%128][2];
+		}
+		
 		return hashTable;
 	}
 
