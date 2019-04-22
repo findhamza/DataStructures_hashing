@@ -1,0 +1,134 @@
+First Thirty Probes :: 0, 10, 1
+Last Thirty Probes :: 0, 61, 19
+
+
+<   0 Is Empty >
+<   1 Is Empty >
+<   2 Is Empty >
+<   3 Is Empty >
+<   4 Is Empty >
+<   5 Is Empty >
+<   6 Is Empty >
+<   7 Is Empty >
+<   8 Is Empty >
+<   9 Is Empty >
+<  10 Is Empty >
+<  11 Is Empty >
+<  12 Is Empty >
+<  13 Is Empty >
+<  14 Is Empty >
+<  15 Is Empty >
+<  16 Is Empty >
+<  17 Is Empty >
+<  18 Is Empty >
+<  19 Is Empty >
+<  20 Is Empty >
+<  21 Is Empty >
+<  22 Is Empty >
+<  23 Is Empty >
+<  24 Is Empty >
+<  25 Is Empty >
+<  26 Is Empty >
+<  27 Is Empty >
+<  28 Is Empty >
+<  29 Is Empty >
+<  30 Is Empty >
+<  31 Is Empty >
+<  32 Is Empty >
+
+[  33,   33,  0]
+[  34,   33,  1]
+[  35,   35,  0]
+[  36,   36,  0]
+[  37,   35,  2]
+[  38,   35,  3]
+[  39,   37,  2]
+[  40,   37,  3]
+[  41,   36,  5]
+[  42,   42,  0]
+[  43,   42,  1]
+[  44,   42,  2]
+[  45,   45,  0]
+[  46,   46,  0]
+[  47,   45,  2]
+[  48,   45,  3]
+[  49,   38, 11]
+[  50,   50,  0]
+[  51,   50,  1]
+[  52,   52,  0]
+[  53,   52,  1]
+[  54,   54,  0]
+[  55,   53,  2]
+[  56,   53,  3]
+[  57,   57,  0]
+[  58,   57,  1]
+[  59,   59,  0]
+[  60,   58,  2]
+[  61,   61,  0]
+[  62,   62,  0]
+[  63,   61,  2]
+[  64,   61,  3]
+[  65,   59,  6]
+[  66,   59,  7]
+[  67,   57, 10]
+[  68,   61,  7]
+[  69,   59, 10]
+[  70,   60, 10]
+[  71,   54, 17]
+[  72,   60, 12]
+[  73,   73,  0]
+[  74,   52, 22]
+[  75,   70,  5]
+[  76,   75,  1]
+[  77,   63, 14]
+[  78,   59, 19]
+[  79,   38, 41]
+[  80,   80,  0]
+[  81,   57, 24]
+[  82,   57, 25]
+[  83,   83,  0]
+[  84,   54, 30]
+[  85,   62, 23]
+[  86,   86,  0]
+[  87,   87,  0]
+[  88,   86,  2]
+[  89,   54, 35]
+[  90,   54, 36]
+[  91,   77, 14]
+[  92,   33, 59]
+[  93,   49, 44]
+[  94,   33, 61]
+[  95,   46, 49]
+[  96,   81, 15]
+
+<  97 Is Empty >
+<  98 Is Empty >
+<  99 Is Empty >
+< 100 Is Empty >
+< 101 Is Empty >
+< 102 Is Empty >
+< 103 Is Empty >
+< 104 Is Empty >
+< 105 Is Empty >
+< 106 Is Empty >
+< 107 Is Empty >
+< 108 Is Empty >
+< 109 Is Empty >
+< 110 Is Empty >
+< 111 Is Empty >
+< 112 Is Empty >
+< 113 Is Empty >
+< 114 Is Empty >
+< 115 Is Empty >
+< 116 Is Empty >
+< 117 Is Empty >
+< 118 Is Empty >
+< 119 Is Empty >
+< 120 Is Empty >
+< 121 Is Empty >
+< 122 Is Empty >
+< 123 Is Empty >
+< 124 Is Empty >
+< 125 Is Empty >
+< 126 Is Empty >
+< 127 Is Empty >

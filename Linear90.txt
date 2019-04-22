@@ -1,62 +1,61 @@
 First Thirty Probes :: 0, 26, 7
-Last Thirty Probes :: 0, 58, 36
+Last Thirty Probes :: 33, 74, 54
 
 
-<   0 Is Empty >
-<   1 Is Empty >
-<   2 Is Empty >
-<   3 Is Empty >
-<   4 Is Empty >
-<   5 Is Empty >
-<   6 Is Empty >
-<   7 Is Empty >
-<   8 Is Empty >
-<   9 Is Empty >
-<  10 Is Empty >
-<  11 Is Empty >
-<  12 Is Empty >
-<  13 Is Empty >
-<  14 Is Empty >
-<  15 Is Empty >
-<  16 Is Empty >
-<  17 Is Empty >
-<  18 Is Empty >
-<  19 Is Empty >
-<  20 Is Empty >
-<  21 Is Empty >
-<  22 Is Empty >
-<  23 Is Empty >
-<  24 Is Empty >
-<  25 Is Empty >
-<  26 Is Empty >
-<  27 Is Empty >
-<  28 Is Empty >
-<  29 Is Empty >
-<  30 Is Empty >
-<  31 Is Empty >
-<  32 Is Empty >
-<  33 Is Empty >
-<  34 Is Empty >
-<  35 Is Empty >
-<  36 Is Empty >
-<  37 Is Empty >
-<  38 Is Empty >
-<  39 Is Empty >
-<  40 Is Empty >
-<  41 Is Empty >
-<  42 Is Empty >
-<  43 Is Empty >
-<  44 Is Empty >
-<  45 Is Empty >
-<  46 Is Empty >
-<  47 Is Empty >
-<  48 Is Empty >
-
+[   0,   89, 39]
+[   1,   65, 64]
+[   2,   80, 50]
+[   3,   78, 53]
+[   4,   73, 59]
+[   5,   70, 63]
+[   6,   72, 62]
+[   7,   83, 52]
+[   8,   85, 51]
+[   9,   74, 63]
+[  10,   70, 68]
+[  11,   67, 72]
+[  12,   82, 58]
+[  13,   87, 54]
+[  14,   83, 59]
+[  15,   80, 63]
+[  16,  109, 35]
+[  17,  112, 33]
+[  18,  112, 34]
+[  19,   98, 49]
+[  20,   99, 49]
+[  21,  114, 35]
+[  22,   99, 51]
+[  23,  112, 39]
+[  24,  119, 33]
+[  25,  111, 42]
+[  26,  108, 46]
+[  27,  109, 46]
+[  28,  105, 51]
+[  29,   99, 58]
+[  30,  109, 49]
+[  31,  114, 45]
+[  32,  115, 45]
+[  33,  116, 45]
+[  34,  119, 43]
+[  35,  115, 48]
+[  36,  113, 51]
+[  37,  100, 65]
+[  38,  110, 56]
+[  39,  111, 56]
+[  40,  102, 66]
+[  41,  112, 57]
+[  42,  115, 55]
+[  43,  101, 70]
+[  44,  103, 69]
+[  45,  110, 63]
+[  46,  112, 62]
+[  47,  115, 60]
+[  48,  115, 61]
 [  49,   49,  0]
+[  50,  116, 62]
+[  51,  105, 74]
+[  52,  108, 72]
 
-<  50 Is Empty >
-<  51 Is Empty >
-<  52 Is Empty >
 <  53 Is Empty >
 <  54 Is Empty >
 <  55 Is Empty >
@@ -133,4 +132,3 @@ Last Thirty Probes :: 0, 58, 36
 [ 125,   67, 58]
 [ 126,   78, 48]
 [ 127,   83, 44]
-

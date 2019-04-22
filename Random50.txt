@@ -1,0 +1,182 @@
+First Thirty Probes :: 0, 5, 1
+Last Thirty Probes :: 0, 13, 4
+
+
+[   0,   67,  5]
+
+<   1 Is Empty >
+<   2 Is Empty >
+
+[   3,   78,  2]
+[   4,   86,  1]
+
+<   5 Is Empty >
+<   6 Is Empty >
+
+[   7,   69,  3]
+
+<   8 Is Empty >
+<   9 Is Empty >
+<  10 Is Empty >
+<  11 Is Empty >
+<  12 Is Empty >
+<  13 Is Empty >
+
+[  14,   66,  1]
+
+<  15 Is Empty >
+<  16 Is Empty >
+<  17 Is Empty >
+<  18 Is Empty >
+<  19 Is Empty >
+
+[  20,   67,  2]
+
+<  21 Is Empty >
+<  22 Is Empty >
+<  23 Is Empty >
+<  24 Is Empty >
+<  25 Is Empty >
+<  26 Is Empty >
+<  27 Is Empty >
+
+[  28,   74, 10]
+
+<  29 Is Empty >
+<  30 Is Empty >
+<  31 Is Empty >
+<  32 Is Empty >
+<  33 Is Empty >
+
+[  34,   65,  3]
+
+<  35 Is Empty >
+
+[  36,   69,  4]
+
+<  37 Is Empty >
+<  38 Is Empty >
+
+[  39,   65,  2]
+[  40,   67, 12]
+[  41,   77,  3]
+[  42,   65,  7]
+
+<  43 Is Empty >
+<  44 Is Empty >
+<  45 Is Empty >
+<  46 Is Empty >
+<  47 Is Empty >
+<  48 Is Empty >
+
+[  49,   49,  0]
+
+<  50 Is Empty >
+<  51 Is Empty >
+<  52 Is Empty >
+<  53 Is Empty >
+
+[  54,   74,  2]
+
+<  55 Is Empty >
+<  56 Is Empty >
+
+[  57,   67,  4]
+
+<  58 Is Empty >
+<  59 Is Empty >
+
+[  60,   67,  9]
+[  61,   83,  3]
+[  62,   77,  5]
+
+<  63 Is Empty >
+
+[  64,   68,  1]
+[  65,   65,  0]
+[  66,   66,  0]
+[  67,   67,  0]
+[  68,   68,  0]
+[  69,   69,  0]
+[  70,   70,  0]
+[  71,   71,  0]
+[  72,   70,  3]
+
+<  73 Is Empty >
+
+[  74,   67,  1]
+[  75,   75,  0]
+[  76,   76,  0]
+[  77,   77,  0]
+[  78,   78,  0]
+[  79,   79,  0]
+[  80,   80,  0]
+[  81,   81,  0]
+[  82,   65,  1]
+[  83,   83,  0]
+[  84,   84,  0]
+[  85,   75,  1]
+[  86,   86,  0]
+[  87,   87,  0]
+
+<  88 Is Empty >
+
+[  89,   66,  3]
+[  90,   90,  0]
+
+<  91 Is Empty >
+
+[  92,   68,  5]
+
+<  93 Is Empty >
+<  94 Is Empty >
+
+[  95,   77,  6]
+[  96,   67,  7]
+
+<  97 Is Empty >
+<  98 Is Empty >
+
+[  99,   67, 13]
+[ 100,   68,  3]
+[ 101,   65,  4]
+[ 102,   70,  1]
+
+< 103 Is Empty >
+< 104 Is Empty >
+< 105 Is Empty >
+
+[ 106,   74,  6]
+
+< 107 Is Empty >
+< 108 Is Empty >
+< 109 Is Empty >
+
+[ 110,   74,  8]
+
+< 111 Is Empty >
+
+[ 112,   74,  7]
+
+< 113 Is Empty >
+
+[ 114,   82,  1]
+[ 115,   68,  2]
+[ 116,   71,  1]
+[ 117,   74,  1]
+
+< 118 Is Empty >
+
+[ 119,   83,  4]
+[ 120,   67,  8]
+
+< 121 Is Empty >
+< 122 Is Empty >
+
+[ 123,   82,  2]
+[ 124,   67,  3]
+[ 125,   65,  5]
+[ 126,   74,  5]
+
+< 127 Is Empty >
+
